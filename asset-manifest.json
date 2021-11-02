@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bluecaller-web/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/bluecaller-web/static/js/main.6d0ccfa3.chunk.js",
-    "main.js.map": "/bluecaller-web/static/js/main.6d0ccfa3.chunk.js.map",
+    "main.js": "/bluecaller-web/static/js/main.e8ede494.chunk.js",
+    "main.js.map": "/bluecaller-web/static/js/main.e8ede494.chunk.js.map",
     "runtime-main.js": "/bluecaller-web/static/js/runtime-main.45ff1d2c.js",
     "runtime-main.js.map": "/bluecaller-web/static/js/runtime-main.45ff1d2c.js.map",
-    "static/js/2.f1dcd91b.chunk.js": "/bluecaller-web/static/js/2.f1dcd91b.chunk.js",
-    "static/js/2.f1dcd91b.chunk.js.map": "/bluecaller-web/static/js/2.f1dcd91b.chunk.js.map",
+    "static/js/2.2457772e.chunk.js": "/bluecaller-web/static/js/2.2457772e.chunk.js",
+    "static/js/2.2457772e.chunk.js.map": "/bluecaller-web/static/js/2.2457772e.chunk.js.map",
     "static/js/3.59140bf4.chunk.js": "/bluecaller-web/static/js/3.59140bf4.chunk.js",
     "static/js/3.59140bf4.chunk.js.map": "/bluecaller-web/static/js/3.59140bf4.chunk.js.map",
     "index.html": "/bluecaller-web/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/bluecaller-web/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.f1dcd91b.chunk.js.LICENSE.txt": "/bluecaller-web/static/js/2.f1dcd91b.chunk.js.LICENSE.txt",
+    "static/js/2.2457772e.chunk.js.LICENSE.txt": "/bluecaller-web/static/js/2.2457772e.chunk.js.LICENSE.txt",
     "static/media/banner1.1c36a11c.jpg": "/bluecaller-web/static/media/banner1.1c36a11c.jpg",
     "static/media/bg1.3834e6fe.jpg": "/bluecaller-web/static/media/bg1.3834e6fe.jpg",
     "static/media/bg2.f810d9a8.jpg": "/bluecaller-web/static/media/bg2.f810d9a8.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.45ff1d2c.js",
-    "static/js/2.f1dcd91b.chunk.js",
+    "static/js/2.2457772e.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.6d0ccfa3.chunk.js"
+    "static/js/main.e8ede494.chunk.js"
   ]
 }
