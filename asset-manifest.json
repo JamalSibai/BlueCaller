@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/JamalSibai/BlueCaller-Web.git/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/JamalSibai/BlueCaller-Web.git/static/js/main.febd3652.chunk.js",
-    "main.js.map": "/JamalSibai/BlueCaller-Web.git/static/js/main.febd3652.chunk.js.map",
-    "runtime-main.js": "/JamalSibai/BlueCaller-Web.git/static/js/runtime-main.7de543c8.js",
-    "runtime-main.js.map": "/JamalSibai/BlueCaller-Web.git/static/js/runtime-main.7de543c8.js.map",
-    "static/js/2.f1dcd91b.chunk.js": "/JamalSibai/BlueCaller-Web.git/static/js/2.f1dcd91b.chunk.js",
-    "static/js/2.f1dcd91b.chunk.js.map": "/JamalSibai/BlueCaller-Web.git/static/js/2.f1dcd91b.chunk.js.map",
-    "static/js/3.59140bf4.chunk.js": "/JamalSibai/BlueCaller-Web.git/static/js/3.59140bf4.chunk.js",
-    "static/js/3.59140bf4.chunk.js.map": "/JamalSibai/BlueCaller-Web.git/static/js/3.59140bf4.chunk.js.map",
-    "index.html": "/JamalSibai/BlueCaller-Web.git/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/JamalSibai/BlueCaller-Web.git/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.f1dcd91b.chunk.js.LICENSE.txt": "/JamalSibai/BlueCaller-Web.git/static/js/2.f1dcd91b.chunk.js.LICENSE.txt",
-    "static/media/banner1.1c36a11c.jpg": "/JamalSibai/BlueCaller-Web.git/static/media/banner1.1c36a11c.jpg",
-    "static/media/bg1.3834e6fe.jpg": "/JamalSibai/BlueCaller-Web.git/static/media/bg1.3834e6fe.jpg",
-    "static/media/bg2.f810d9a8.jpg": "/JamalSibai/BlueCaller-Web.git/static/media/bg2.f810d9a8.jpg",
-    "static/media/bg3.9d41453d.jpg": "/JamalSibai/BlueCaller-Web.git/static/media/bg3.9d41453d.jpg",
-    "static/media/logo.6ce24c58.svg": "/JamalSibai/BlueCaller-Web.git/static/media/logo.6ce24c58.svg"
+    "main.css": "/bluecaller-web/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/bluecaller-web/static/js/main.6d0ccfa3.chunk.js",
+    "main.js.map": "/bluecaller-web/static/js/main.6d0ccfa3.chunk.js.map",
+    "runtime-main.js": "/bluecaller-web/static/js/runtime-main.45ff1d2c.js",
+    "runtime-main.js.map": "/bluecaller-web/static/js/runtime-main.45ff1d2c.js.map",
+    "static/js/2.f1dcd91b.chunk.js": "/bluecaller-web/static/js/2.f1dcd91b.chunk.js",
+    "static/js/2.f1dcd91b.chunk.js.map": "/bluecaller-web/static/js/2.f1dcd91b.chunk.js.map",
+    "static/js/3.59140bf4.chunk.js": "/bluecaller-web/static/js/3.59140bf4.chunk.js",
+    "static/js/3.59140bf4.chunk.js.map": "/bluecaller-web/static/js/3.59140bf4.chunk.js.map",
+    "index.html": "/bluecaller-web/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/bluecaller-web/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.f1dcd91b.chunk.js.LICENSE.txt": "/bluecaller-web/static/js/2.f1dcd91b.chunk.js.LICENSE.txt",
+    "static/media/banner1.1c36a11c.jpg": "/bluecaller-web/static/media/banner1.1c36a11c.jpg",
+    "static/media/bg1.3834e6fe.jpg": "/bluecaller-web/static/media/bg1.3834e6fe.jpg",
+    "static/media/bg2.f810d9a8.jpg": "/bluecaller-web/static/media/bg2.f810d9a8.jpg",
+    "static/media/bg3.9d41453d.jpg": "/bluecaller-web/static/media/bg3.9d41453d.jpg",
+    "static/media/logo.6ce24c58.svg": "/bluecaller-web/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7de543c8.js",
+    "static/js/runtime-main.45ff1d2c.js",
     "static/js/2.f1dcd91b.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.febd3652.chunk.js"
+    "static/js/main.6d0ccfa3.chunk.js"
   ]
 }
