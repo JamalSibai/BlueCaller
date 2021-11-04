@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BlueCaller/static/css/main.c74897c1.chunk.css",
-    "main.js": "/BlueCaller/static/js/main.1f33bf51.chunk.js",
-    "main.js.map": "/BlueCaller/static/js/main.1f33bf51.chunk.js.map",
+    "main.js": "/BlueCaller/static/js/main.e7c26410.chunk.js",
+    "main.js.map": "/BlueCaller/static/js/main.e7c26410.chunk.js.map",
     "runtime-main.js": "/BlueCaller/static/js/runtime-main.f23c1459.js",
     "runtime-main.js.map": "/BlueCaller/static/js/runtime-main.f23c1459.js.map",
     "static/css/2.4659568d.chunk.css": "/BlueCaller/static/css/2.4659568d.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.225583c4.chunk.js",
     "static/css/main.c74897c1.chunk.css",
-    "static/js/main.1f33bf51.chunk.js"
+    "static/js/main.e7c26410.chunk.js"
   ]
 }
