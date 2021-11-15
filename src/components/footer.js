@@ -11,13 +11,11 @@ class Footer extends Component {
               <div className="col-lg-4 col-md-6 footer-widget footer-about">
                 <h3 className="widget-title">About Us</h3>
                 <p>
-                  Need a quick and easy way to check calories, carbs and fat?
-                  The CalorieKing Food Database is America’s best and most
-                  reliable. Trusted by health professionals everywhere, it
-                  contains over 70,000 foods and includes 260 fast food chains
-                  and restaurants. The CalorieKing Calorie Counter for iPhone
-                  has a user-friendly interface that allows a quick comparison,
-                  of calories, carbs and fat, between foods.
+                  Need a quick and easy way to check for technical workers,
+                  BlueCaller app is intended to help the lebanese society for
+                  both customers and freelancers, it builds a trusted community
+                  based on rating and compatitive prices, which gives benefits
+                  for both sides.
                 </p>
                 <div className="footer-social">
                   <ul>
@@ -55,9 +53,7 @@ class Footer extends Component {
                     </li>
                   </ul>
                 </div>
-                {/* <!-- Footer social end --> */}
               </div>
-              {/* <!-- Col end --> */}
 
               <div className="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
                 <h3 className="widget-title">Working Hours</h3>
@@ -73,28 +69,11 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            {/* <!-- Row end --> */}
           </div>
-          {/* <!-- Container end --> */}
         </div>
-        {/* <!-- Footer main end --> */}
 
         <div className="copyright">
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <div className="copyright-info text-center text-md-left">
-                  <span>
-                    Copyright &copy;
-                    <script>document.write(new Date().getFullYear());</script>,
-                    Designed &amp; Developed by
-                    <a href="https://themefisher.com">Themefisher</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Row end --> */}
-
             <div
               id="back-to-top"
               data-spy="affix"
@@ -106,9 +85,7 @@ class Footer extends Component {
               </button>
             </div>
           </div>
-          {/* <!-- Container end --> */}
         </div>
-        {/* <!-- Copyright end --> */}
       </footer>
     );
   }

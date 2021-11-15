@@ -1,8 +1,19 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import banner1 from "../pic/banner1.jpg";
+import { useHistory } from "react-router";
 
 function SecondHeader(props) {
+  const history = useHistory();
+  const navStatistics = () => {
+    history.push("/Statistics");
+  };
+  const nav = () => {
+    history.push("/adminHome");
+  };
+  const navlogin = () => {
+    history.push("/login");
+  };
   return (
     <div
       id="banner-area"
@@ -20,13 +31,13 @@ function SecondHeader(props) {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center">
                     <li className="breadcrumb-item">
-                      <a href="/adminHome">Home</a>
+                      <a onClick={nav}>Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/Statistics">Statistics</a>
+                      <a onClick={navStatistics}>Statistics</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/login">Logout</a>
+                      <a onClick={navlogin}>Logout</a>
                     </li>
                   </ol>
                 </nav>

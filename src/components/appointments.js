@@ -38,7 +38,7 @@ function Appointment(props) {
             <li>Email: {props.props.user[0].email}</li>
             <li>
               Reserved at:{" "}
-              {JSON.stringify(props.props.updated_at).substring(1, 10)}
+              {JSON.stringify(props.props.updated_at).substring(1, 11)}
             </li>
           </ul>
         </div>

@@ -7,14 +7,17 @@ import Footer from "../components/footer";
 import SecondHeader from "../components/secondHeader";
 import Appointment from "../components/appointments";
 import ReactLoading from "react-loading";
+import { useHistory } from "react-router";
 
 function FreelancerAppointment() {
   const [data, setData] = useState(null);
+  const history = useHistory();
 
   useEffect(() => {
     getAppointments();
     if (!localStorage.getItem("freelancer_id")) {
-      window.location.href = "/login";
+      // window.location.href = "/login";
+      history.push("/login");
     }
   }, []);
 
@@ -52,7 +55,7 @@ function FreelancerAppointment() {
         <div className="container">
           <div className="col-12">
             {/* <h2 className="section-title">Freelancers</h2> */}
-            <h3 className="section-sub-title">Freelancers Appointments</h3>
+            <h3 className="section-sub-title">Freelancer Appointments</h3>
           </div>
           <div className="row">
             {data.map((item) => (

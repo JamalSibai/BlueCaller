@@ -4,6 +4,7 @@ import React, { Component, useState, useEffect } from "react";
 import Highcharts from "highcharts/highstock";
 import PieChart from "highcharts-react-official";
 import ReactLoading from "react-loading";
+import { useHistory } from "react-router";
 
 import AdminsHeader from "../components/adminheader";
 import Footer from "../components/footer";
@@ -11,6 +12,7 @@ import SecondHeader from "../components/secondHeader";
 import Row from "../components/row";
 
 function Statistics() {
+  const history = useHistory();
   const [data, setData] = useState(null);
   const [total, setTotal] = useState("");
   const [done, setDone] = useState("");
@@ -112,7 +114,8 @@ function Statistics() {
     getPieData();
     getStat();
     if (!localStorage.getItem("token")) {
-      window.location.href = "/login";
+      // window.location.href = "/login";
+      history.push("/login");
     }
   }, []);
 
@@ -174,7 +177,6 @@ function Statistics() {
               <table className="table">
                 <thead className="thead-dark">
                   <tr>
-                    {/* <th scope="col">#</th> */}
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
                     <th scope="col">App.</th>
@@ -187,7 +189,6 @@ function Statistics() {
                     <Row props={item} key={item.User.id} />
                   ))}
                   <tr>
-                    {/* <th scope="col"></th> */}
                     <th scope="col"></th>
                     <th scope="col"></th>
                     <th scope="col">{total}</th>

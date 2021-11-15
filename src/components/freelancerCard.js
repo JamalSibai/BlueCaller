@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import axios from "axios";
+import { useHistory } from "react-router";
 
 function FreelancerCard(props) {
+  const history = useHistory();
   const ontouch = () => {
     localStorage.setItem("freelancer_id", props.props.id);
-    window.location.href = "/freelancerAppointment";
+    // window.location.href = "/freelancerAppointment";
+    history.push("/freelancerAppointment");
   };
   const ondelete = async () => {
     props.function(props.props.id);

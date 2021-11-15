@@ -6,15 +6,18 @@ import Footer from "../components/footer";
 import SecondHeader from "../components/secondHeader";
 import FreelancerCard from "../components/freelancerCard";
 import ReactLoading from "react-loading";
+import { useHistory } from "react-router";
 
 function AdminHome() {
   const [data, setData] = useState(null);
+  const history = useHistory();
   useEffect(() => {
     console.log(localStorage.getItem("token"));
     getFreelancers();
     // console.log("token", token);
     if (!localStorage.getItem("token")) {
-      window.location.href = "/login";
+      // window.location.href = "/login";
+      history.push("/login");
     }
   }, []);
 
@@ -47,8 +50,7 @@ function AdminHome() {
       <section id="main-container" className="main-container">
         <div className="container">
           <div className="col-12">
-            <h2 className="section-title">Freelancers</h2>
-            <h3 className="section-sub-title">Find Freelancers Appointments</h3>
+            <h3 className="section-sub-title">Freelancers </h3>
           </div>
           <div className="row">
             {data.map((item) => (

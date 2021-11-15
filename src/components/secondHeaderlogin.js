@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import banner1 from "../pic/banner1.jpg";
+import { useHistory } from "react-router";
 
 function SecondHeaderlogin(props) {
   return (

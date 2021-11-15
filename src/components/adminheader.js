@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { useHistory } from "react-router";
 
 function AdminHeader() {
+  const history = useHistory();
+
+  const nav = () => {
+    history.push("/");
+  };
   return (
     <header id="header" className="header-one">
       <div className="site-navigation">
@@ -12,24 +18,17 @@ function AdminHeader() {
                 <div id="navbar-collapse" className="collapse navbar-collapse">
                   <ul className="nav navbar-nav mr-auto">
                     <li className="nav-item dropdown active">
-                      <a
-                        href="/"
-                        className="nav-link dropdown-toggle"
-                        // data-toggle="dropdown"
-                      >
-                        Blue Caller
+                      <a onClick={nav} className="nav-link dropdown-toggle">
+                        BlueCaller
                       </a>
                     </li>
                   </ul>
                 </div>
               </nav>
             </div>
-            {/* <!--/ Col end --> */}
           </div>
-          {/* <!--/ Row end --> */}
         </div>
       </div>
-      {/* <!--/ Navigation end --> */}
     </header>
   );
 }

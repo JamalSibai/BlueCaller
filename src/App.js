@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import login from "./pages/login";
 import home from "./pages/home";
 import adminHome from "./pages/adminHome";
@@ -22,21 +22,17 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={home} />
-        </Switch>
-        <Switch>
+
           <Route exact path="/login" component={login} />
-        </Switch>
-        <Switch>
+
           <Route exact path="/adminHome" component={adminHome} />
-        </Switch>
-        <Switch>
+
           <Route
             exact
             path="/freelancerAppointment"
             component={FreelancerAppointment}
           />
-        </Switch>
-        <Switch>
+
           <Route exact path="/Statistics" component={Statistics} />
         </Switch>
       </Router>

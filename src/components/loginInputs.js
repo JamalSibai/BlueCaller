@@ -1,10 +1,12 @@
 import React, { Component, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import axios from "axios";
+import { useHistory } from "react-router";
 
 function LoginInputs() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const history = useHistory();
 
   const emailChange = (email) => {
     setEmail(email.target.value);
@@ -28,7 +30,8 @@ function LoginInputs() {
         })
         .then((res) => {
           localStorage.setItem("token", res.data.access_token);
-          window.location.href = "/adminHome";
+          // window.location.href = "/adminHome";
+          history.push("/adminHome");
         });
     } catch (err) {
       console.log(err);

@@ -5,7 +5,6 @@ import axios from "axios";
 function Row(props) {
   return (
     <tr>
-      {/* <th scope="row"></th> */}
       <td>{props.props.User.name}</td>
       <td>{props.props.User.email}</td>
       <td>{props.props.count}</td>
